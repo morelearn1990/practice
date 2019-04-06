@@ -129,8 +129,6 @@ function onReady(callBack) {
   }
   setCanvasAttribute();
   window.addEventListener("resize", setCanvasAttribute);
-
-  callBack(canvas);
 }
 
 onReady(canvas => {
