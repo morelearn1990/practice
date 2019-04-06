@@ -1,0 +1,13 @@
+{
+  "name": "WordClock",
+  "description": "a word clock for chrome",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "permissions": ["tabs", "activeTab", "notifications", "storage"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
